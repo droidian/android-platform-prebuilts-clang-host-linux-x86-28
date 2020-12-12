@@ -146,9 +146,6 @@ def debian_package_build(suite, architecture, full_build=True, extra_repos=[], h
 					},
 				],
 				"commands" : [
-					"echo 'deb http://hybris-mobian-releng-releng-tools.repo.hybris-mobian.org/bullseye-container-and-lfs/ bullseye main' >> /etc/apt/sources.list",
-					"apt update",
-					"apt install --yes releng-tools",
 					"releng-build-package",
 					"find /drone -type f -maxdepth 1 -exec mv {} /buildd \\\;",
 				],
