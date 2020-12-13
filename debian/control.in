@@ -11,7 +11,6 @@ Package: clang-android-@CLANG_VERSION@-@CLANG_REVISION@
 Architecture: amd64
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-         # FIXME: Should fix dh_shlibs
          libtinfo5,
 Description: C, C++ and Objective-C compiler - Android prebuilt
  Clang project is a C, C++, Objective C and Objective C++ front-end based
