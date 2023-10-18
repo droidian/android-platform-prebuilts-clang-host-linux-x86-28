@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Build-Depends: debhelper (>= 13)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/hybris-mobian/android-platform-prebuilts-clang-host-linux-x86-28
-Vcs-Git: https://github.com/hybris-mobian/android-platform-prebuilts-clang-host-linux-x86-28.git
+Vcs-Browser: https://github.com/droidian/android-platform-prebuilts-clang-host-linux-x86-28
+Vcs-Git: https://github.com/droidian/android-platform-prebuilts-clang-host-linux-x86-28.git
 
 Package: clang-android-6.0-4691093
 Architecture: amd64
